@@ -1,0 +1,47 @@
+body{
+    
+    text-align: center;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width:45mm ;
+    height:45mm ;
+    
+}
+h1{
+    background-color: orangered;
+}
+h2{
+    background-color: orangered;
+    font-size: 1.6rem;
+
+}
+h3{
+    font-size: 1.5rem;
+    background-color: orangered;
+    
+}
+ul{
+    background-color: aliceblue;
+
+}
+li{
+    text-align: left;
+    font-size: 1.2rem;
+    
+}
+ol{
+    background-color: aliceblue;
+
+}
+h4{
+    background-color: orangered;
+font-size: 1.4rem;
+}
+
+p{
+    font-size: 1.2rem;
+    background-color: aliceblue;
+    
+}
