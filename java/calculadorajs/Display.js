@@ -17,6 +17,13 @@ class Display {
         this.imprimirNumeros();
     }
 
+    computar(tipo){
+        this.TipoOperacion !== 'igual' && this.calcular();
+        this.TipoOperacion = tipo;
+        this.NumeroAnterior = this.NumeroActual || this.NumeroAnterior;
+        this.NumeroActual = '';
+    }
+
     agregarNumero(numero) {
         if(numero === '.' && this.NumeroActual.includes('.')) return
         this.NumeroActual = this.NumeroActual.toString() + numero.toString();
@@ -26,5 +33,12 @@ class Display {
 
         this.displayNumeroActual.textContent = this.NumeroActual;
         this.displayNumeroAnterior.textContent = this.NumeroAnterior;
+}
+calcular(){
+    const NumeroAnterior = parsFloat(this.NumeroAnterior);
+    const NumeroActual = parsFloat(this.NumeroActual);
+
+    if( isNaN(NumeroActual) || isNaN(NumeroAnterior) ) return
+    this.NumeroActual = this.calculador[this.TipoOperacion](NumeroAnterior, NumeroActual);
 }
 }
