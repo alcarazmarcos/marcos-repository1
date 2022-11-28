@@ -10,14 +10,15 @@ import ContactoPage from "./pages/ContactoPage";
 import HomePage from "./pages/HomePage";
 import NosotrosPage from "./pages/NosotrosPage";
 import NovedadesPage from "./pages/NovedadesPage";
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Header></Header>
 
       <BrowserRouter>
-      <Nav/>
+      <Nav />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="nosotros" element={<NosotrosPage />} />

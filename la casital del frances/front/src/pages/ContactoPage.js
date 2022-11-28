@@ -1,9 +1,10 @@
-
+import '../styles/components/pages/ContactoPage.css';
 
 const ContactoPage = (props) => {
     return (
         <main className="holder contacto">
-        <div>
+            
+        <div >
             <h2>Contacto Rápido</h2>
             <form action="" method="" className="formulario">
                 <p>
@@ -28,15 +29,18 @@ const ContactoPage = (props) => {
                 </p>
             </form>
         </div>
-        <div class="datos">
+        <div className="datos">
             <h2>Otras vias de contacto</h2>
             <p> Tambien puede contactarse con nosotros usando
                 los siguientes medios</p>
                 <ul>
                     <li>Teléfono: xxxxxxx</li>
                     <li>Emanil: contacto@gmail.com</li>
+                    <li>Facebook:</li>
+                    <li>Instagram:</li>
                 </ul>
         </div>
+       
         </main>
     );
 }

@@ -1,14 +1,19 @@
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  line-height: 20px;
-}
-.holder {
-  width: 960px;
-  margin: 0 auto;
+body{
+    font-family:'Opem Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .holder{
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  h2{
+    color: #2e64a1;
+    font-weight: 400;
 }
 h2{
-  font-weight: 400;
-  color: #2e64a1;
-  margin: 0 0 1em;
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83;
 }
