@@ -1,3 +1,14 @@
+.homeimg{
+  clear: both;
+  margin-bottom: 1.5em;
+
+}
+.homeimg img{
+  margin-left: 50px;
+  border-radius: 89px 89px 89px 89px;
+-webkit-border-radius: 89px 89px 89px 89px;
+-moz-border-radius: 89px 89px 89px 89px;
+}
 h2{
     color: #2e64a1;
     font-weight: 400;
@@ -19,8 +30,14 @@ h2{
     font-size: 20px;
   }
   .testimonio{
-    background-color: #ccc;
-    padding: 16px;
+    border: 1px solid #ccc;
+    background-color: rgb(206, 178, 144);
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    padding: 13px;
+    box-sizing:border-box ;
+    
   }
   .testimonio .cita{
     font-weight: bold;

@@ -2,6 +2,10 @@
   display: flex;
   gap: 24px;
 }
+
+.contacto h2{
+  color: black;
+}
 .contacto div{
   width: 100%;
 }
@@ -27,4 +31,25 @@
 .formulario textarea{
   resize: none;
   height: 150px;
+}
+.contacto1{
+  border: 1px solid #ccc;
+  background-color: rgb(206, 178, 144);
+  border-radius: 5px;
+  width: 45%;
+  text-align: center;
+  padding: 13px;
+  box-sizing:border-box ;
+  
+  
+
+}
+.datos{
+  border: 1px solid #ccc;
+  background-color: rgb(206, 178, 144);
+  border-radius: 5px;
+  width: 45%;
+  padding: 13px;
+  box-sizing:border-box ;
+  
 }

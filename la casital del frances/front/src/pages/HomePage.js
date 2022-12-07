@@ -1,10 +1,14 @@
 import '../styles/components/pages/HomePage.css';
 
+
 const HomePage = (props) => {
     return (
         <main className="holder">
+            
             <div className="homeimg">
-                <img src="img/home/casita2.png" alt="dante" />
+              
+      <img src="img/home/casita2.png" alt="dante"/>
+     
             </div>
             <div className="columnas">
                 <div className="bienvenidos">
